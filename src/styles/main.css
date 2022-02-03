@@ -25,6 +25,62 @@ a {
   padding: 2rem;
 }
 
+nav {
+  font-size: 2rem;
+  margin: 10px 60px;
+  padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  border-bottom: 2px solid #ddd;
+}
+
+nav a {
+  margin-left: 2rem;
+  color: #fff;
+  font-weight: 800;
+}
+
+nav a:hover {
+  font-weight: bold;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+  color: #ffa835;
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+.gitLink {
+  font-weight: 600;
+  color: #d3d300;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 800;
+  text-align: center;
+  width: 250px;
+  padding: 8px 0;
+  margin: 3rem auto;
+  border-radius: 8px;
+  background: #ec8600;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
 .textContent {
   text-align: center;
   font-size: 1.3rem;
@@ -53,5 +109,15 @@ a {
 .textTitle {
   font-size: 1.6rem;
   font-weight: 900;
+}
+
+.imageContainer {
+  max-width: 12rem;
+  margin: 0 auto;
+}
+
+.imageContainerProfile {
+  width: 100%;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=main.css.map */

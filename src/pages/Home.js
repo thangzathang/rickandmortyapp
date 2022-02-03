@@ -5,34 +5,38 @@ export default function Home() {
   return (
     <>
       <header>
-        <title>SWAPI | Home</title>
-        <meta name="keywords" content="swapi" />
+        <title>Rick and Morty App| About</title>
+        <meta name="keywords" content="rickandmortyapi" />
       </header>
-      <h1 className="title primary">SWAPI, React and NextJS code test Challenge</h1>
+      <h1 className="title primary">Rick and Morty GraphQL API Challenge</h1>
       <div className="textContent">
         <p>
           This is an attempt at a front end challenge I received. See the code here at Github:{" "}
-          <a href="https://github.com/thangzathang/swapiApp" className="gitLink" target="_blank" rel="noreferrer">
+          <a href="https://github.com/thangzathang/rickandmortyapp" className="gitLink" target="_blank" rel="noopener noreferrer">
             Thang Za Thang.
           </a>
         </p>
-        <p>Consume the Star Wars API (SWAPI) using React, NextJS and other JS technologies you deem fit. </p> <br />
-        <p className="primary textTitle">Acceptance criteria: </p> <br />
-        <p>• Home screen contains a list of films pulled from the SWAPI • List should be searchable</p>
-        <p>• Films can be favourited, this state should be persisted using local storage</p>
-        <p>• Favourited films should appear at the top of the list • Favourited films can be unfavourited </p>
         <br />
-        <p>• Film list items can be clicked to show individual film page • Film page should exist on it’s own URL</p>
-        <p>• Film page should show all the information pulled from the SWAPI endpoint for an individual film</p>
-        <p> • The list of characters should display a tooltip when a list item is hovered, </p>
-        <p>containing their name, birth year, eye colour, gender, hair colour and any other information you deem necessary </p>
+        <p>For the technical round of the interview we would like you to create a ReactJS </p>
+        <p>application that displays characters from the Rick and Morty GraphQL API.</p> <br />
+        <p className="primary textTitle">Minimum requirements: </p> <br />
+        <p>Create the following pages: Characters</p>
+        <p>• List characters and display their name and image</p>
+        <p>• Allowing searching for characters based on their name</p>
+        <p>• Link each character to their details page</p>
         <br />
-        <p>• Film page should contain a back to home link • Provide public GitHub repo to source code</p>
-        <p>• Use SCSS for styling • Use Flexbox or CSS grid for layouts - avoid Bootstrap etc</p>
-        <p>• Host the finished project on Vercel</p>
+        <p>Create the following pages: Character Details</p>
+        <p>• Display all of the characters information</p>
+        <p>• List the episodes that the character appears in</p>
+        <br />
+        <p className="primary textTitle">Advanced: </p>
+        <br />
+        <p>• Add pagination to the Characters page</p>
+        <p>• Allowing filtering of characters based on gender, species, status, and type</p>
+        <p>• Write a unit test for one of your presentational components</p>
         <Link to="/characters">
           <a href className="btn">
-            Star Wars Movies
+            Characters List
           </a>
         </Link>
       </div>
