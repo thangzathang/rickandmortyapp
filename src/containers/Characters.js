@@ -5,11 +5,12 @@ const GET_CHARACTERS = gql`
   query Characters($page: Int) {
     characters(page: $page) {
       results {
+        id
         name
         image
         gender
         status
-        id
+        species
         location {
           name
         }

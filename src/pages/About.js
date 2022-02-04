@@ -34,7 +34,7 @@ export default function About() {
         </p>
         <p>
           and my github{" "}
-          <a href="https://github.com/thangzathang/" className="gitLink" target="_blank" rel="noreferrer">
+          <a href="https://github.com/thangzathang/" className="gitLink" target="_blank" rel="noopener noreferrer">
             Thang Za Thang
           </a>
           .

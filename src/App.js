@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import CharactersPage from "./pages/CharactersPage";
+import CharacterDetails from "./pages/CharacterDetails";
 
 function App() {
   return (
@@ -26,6 +27,9 @@ function App() {
             </Route>
             <Route exact path="/characters">
               <CharactersPage />
+            </Route>
+            <Route exact path="/characters/:id">
+              <CharacterDetails />
             </Route>
           </Switch>
         </div>
